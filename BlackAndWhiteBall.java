@@ -20,13 +20,9 @@
     			if(left > 0) {
         			left = right-1;
     			}
-    		}
-    		
+    		}    		
     		else if(ar[left] == '0' && ar[right] == '1') {
     			right--;
-    			if(left > 0) {
-        			left = right-1;
-    			}
     		}
     		else if(ar[left] == '0' && ar[right] == '0') {
     			left--;
